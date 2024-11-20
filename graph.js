@@ -58,7 +58,7 @@ class Graph {
 			visited.add(node);
 			result.push(node.value);
 
-			for (let neighbor of node.adjecent) {
+			for (let neighbor of node.adjacent) {
 				dfs(neighbor);
 			}
 		}
